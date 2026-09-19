@@ -1,0 +1,31 @@
+name: incircle
+description: InCircle - aplikacja mobilna
+publish_to: "none"
+version: 1.2.0+3
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  google_maps_flutter: ^2.6.0
+  mobile_scanner: ^7.4.0
+  shared_preferences: ^2.2.3
+  flutter_local_notifications: ^17.2.1
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.0.4
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1 
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#00897B"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+
+flutter:
+  uses-material-design: true

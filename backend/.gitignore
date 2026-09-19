@@ -1,0 +1,8 @@
+.env
+mosquitto/config/passwd
+mosquitto/config/certs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+firebase-key.json
